@@ -14,6 +14,7 @@ spec:
       labels:
         app: static-site
     spec:
+      terminationGracePeriodSeconds: 30
       containers:
       - name: static-site
         image: martinroygsr/hellorepo:latest
